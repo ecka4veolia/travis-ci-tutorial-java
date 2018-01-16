@@ -15,5 +15,9 @@ public class SimpleCalculator {
 	}
 	public static final void main(String[] args) {
 		System.out.println("Hello world?");
+
+		SimpleCalculator calculator = new SimpleCalculator();
+
+		System.out.println("Addition: " + calculator.add(12, 10));
 	}
 }
