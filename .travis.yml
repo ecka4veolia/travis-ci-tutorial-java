@@ -1,5 +1,8 @@
 language: java
 jdk:
- - oraclejdk8
+- oraclejdk8
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash)
+notifications:
+  slack:
+    secure: Iu2nxTt7qqY4rKugERduIn15LKyUh7gAFLEZGcJsWrMvQNnlxRDxK+mTTXxA03CZ6kY3oFqLDwKyEEUQdSIQOSlWKyQX6OiiY9NOYE/QDp2vrhQ27exa71XqjenjaZSZxioXDeSxTk8eIJxE5YFJ0bUypGll9c6qMWhnk5BBUiulYXgZ3G6jtjNhWCSyP0lDKA/+EQhbqD4WND2k8CmQ/yvvreSZ2WYTA2H+rCqvp3ryaQalBGXgR9/gwMxWpLjwfK2TfhykWwX8ErrLFpYUFsPi/YNN4sJZolbvOoLc58HkQZzUS2wObdFzfkZzstrYtv6DgeNp/U5rYRayoSA8NfCWP3n5RonQ+/fd/oV7hIXJ3gD/SGW82l4D4nIJT7QkyaI7DDP0nB7U/wHC0tAOMDwz4QZOL9zqqVqk1phfH7OcSY87GKdI9ZgdnH5v8XmS2u5NizgnBDQGJ1XnSJXPpxQq76Kd5E9bNsf3PHK7S4MU6KzeVqPLT9DiHkpkOxo1DU+ZISIUii40pJUvyKDikg2hH8hd78JjeU0s87rZv7zEqZ14TTExBHY+QZUene5vxV1LVFlhVVGbj2Z0Tw6nE7ndAAR9dg1V8DMnbeo4f6hBcrBtLjeQGs2V687XoR0p5S4Z0HSRFBiAQVUPtG4OycI6keqGt2/b0ZepRbg0Axk=
